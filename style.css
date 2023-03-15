@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 8em;
+}
+
+.social {
+    width: 50px;
+}
+
+
+.container {
+    text-align: center;
+    width: 467px;
+    margin: 4em auto;
+    background-color: white;
+    /* padding: 5em 0 2em; */
+    padding: 20px;
+    border-radius: 20px;
+    /* padding: 3em; */
+    /* display: flex; */
+}
+
+.container .design {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1em;
+}
+
+.design h2 {
+    color: black;
+}
+
+p {
+    color: rgb(37, 37, 37);
+}
+
+.design-content h5 {
+    /* width: 140%; */
+    /* margin: 0 auto; */
+}
+
+.design-content {
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
+    /* border: 3px solid lightgray; */
+    /* color: black; */
+    /* justify-content: space-between; */
+}
+
+.whatsapp {
+    border: 1px solid lightgray;
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    color: black;
+    /* justify-content: space-between; */
+    gap: 1em;
+}
+
+.contact p {
+    font-size: 0.7em;
+}
+
+button {
+    padding: 0.5em 1em;
+    color: cyan;
+    width: 6em;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.download {
+    background-color: lightgray;
+    border: none;
+}
+
+.share {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+}
+
